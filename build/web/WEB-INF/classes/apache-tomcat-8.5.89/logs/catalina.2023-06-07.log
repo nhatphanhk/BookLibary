@@ -1,0 +1,50 @@
+07-Jun-2023 14:05:19.971 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.89
+07-Jun-2023 14:05:19.971 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 9 2023 16:21:47 UTC
+07-Jun-2023 14:05:19.971 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.89.0
+07-Jun-2023 14:05:19.971 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+07-Jun-2023 14:05:19.971 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+07-Jun-2023 14:05:19.971 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+07-Jun-2023 14:05:19.971 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_202\jre
+07-Jun-2023 14:05:19.971 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_202-b08
+07-Jun-2023 14:05:19.971 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+07-Jun-2023 14:05:19.971 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89
+07-Jun-2023 14:05:19.971 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89
+07-Jun-2023 14:05:19.971 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\conf\logging.properties
+07-Jun-2023 14:05:19.971 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Jun-2023 14:05:19.971 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+07-Jun-2023 14:05:19.971 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Jun-2023 14:05:19.971 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+07-Jun-2023 14:05:19.971 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89
+07-Jun-2023 14:05:19.971 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89
+07-Jun-2023 14:05:19.971 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\temp
+07-Jun-2023 14:05:19.971 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.36] using APR version [1.7.2].
+07-Jun-2023 14:05:19.971 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [{4}].
+07-Jun-2023 14:05:19.971 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+07-Jun-2023 14:05:19.971 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1t  7 Feb 2023]
+07-Jun-2023 14:05:20.081 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+07-Jun-2023 14:05:20.099 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 494 ms
+07-Jun-2023 14:05:20.129 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+07-Jun-2023 14:05:20.129 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.89]
+07-Jun-2023 14:05:20.135 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\webapps\docs]
+07-Jun-2023 14:05:20.429 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\webapps\docs] has finished in [294] ms
+07-Jun-2023 14:05:20.429 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\webapps\examples]
+07-Jun-2023 14:05:20.876 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\webapps\examples] has finished in [447] ms
+07-Jun-2023 14:05:20.876 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\webapps\host-manager]
+07-Jun-2023 14:05:20.899 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\webapps\host-manager] has finished in [23] ms
+07-Jun-2023 14:05:20.899 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\webapps\manager]
+07-Jun-2023 14:05:20.908 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\webapps\manager] has finished in [9] ms
+07-Jun-2023 14:05:20.908 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\webapps\ROOT]
+07-Jun-2023 14:05:20.934 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\webapps\ROOT] has finished in [26] ms
+07-Jun-2023 14:05:20.936 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+07-Jun-2023 14:05:20.993 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 889 ms
+07-Jun-2023 14:05:34.962 INFO [http-nio-8080-exec-2] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\conf\Catalina\localhost\test.xml]
+07-Jun-2023 14:05:34.988 INFO [http-nio-8080-exec-2] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\conf\Catalina\localhost\test.xml] has finished in [26] ms
+07-Jun-2023 14:05:34.994 INFO [http-nio-8080-exec-1] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/test]] after start() had already been called. The second call will be ignored.
+07-Jun-2023 14:07:32.976 INFO [http-nio-8080-exec-2] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\conf\Catalina\localhost\ClassWork2.xml]
+07-Jun-2023 14:07:32.996 INFO [http-nio-8080-exec-2] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\conf\Catalina\localhost\ClassWork2.xml] has finished in [20] ms
+07-Jun-2023 14:07:32.999 INFO [http-nio-8080-exec-1] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ClassWork2]] after start() had already been called. The second call will be ignored.
+07-Jun-2023 14:13:28.247 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+07-Jun-2023 14:13:28.247 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+07-Jun-2023 14:13:28.324 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+07-Jun-2023 14:13:28.352 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+07-Jun-2023 14:13:28.356 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]

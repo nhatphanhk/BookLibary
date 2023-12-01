@@ -1,0 +1,12 @@
+29-Jun-2023 15:14:43.576 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+29-Jun-2023 15:14:43.576 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+29-Jun-2023 15:14:43.579 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@3e8c71ab')
+29-Jun-2023 15:14:45.833 INFO [http-nio-8080-exec-10] org.apache.catalina.core.ApplicationContext.log AuthenticationFilter initialized
+29-Jun-2023 15:14:45.833 INFO [http-nio-8080-exec-10] org.apache.catalina.core.ApplicationContext.log AuthenticationFilter initialized
+29-Jun-2023 15:14:45.834 INFO [http-nio-8080-exec-10] org.apache.catalina.core.ApplicationContext.log RequestLoggingFilter initialized
+29-Jun-2023 15:14:45.834 INFO [http-nio-8080-exec-10] org.apache.catalina.core.ApplicationContext.log RequestLoggingFilter initialized
+29-Jun-2023 15:14:47.031 INFO [http-nio-8080-exec-4] org.apache.catalina.core.ApplicationContext.log Requested Resource::/ServletFilterExmaple/
+29-Jun-2023 15:14:47.031 INFO [http-nio-8080-exec-4] org.apache.catalina.core.ApplicationContext.log Unauthorized access request
+29-Jun-2023 15:14:47.183 INFO [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationContext.log Requested Resource::/ServletFilterExmaple/login.html
+29-Jun-2023 16:46:26.693 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+29-Jun-2023 16:46:26.693 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()

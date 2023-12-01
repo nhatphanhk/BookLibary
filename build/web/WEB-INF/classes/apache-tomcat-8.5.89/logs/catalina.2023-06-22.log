@@ -1,0 +1,754 @@
+22-Jun-2023 18:55:42.025 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.89
+22-Jun-2023 18:55:42.037 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 9 2023 16:21:47 UTC
+22-Jun-2023 18:55:42.037 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.89.0
+22-Jun-2023 18:55:42.037 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+22-Jun-2023 18:55:42.037 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+22-Jun-2023 18:55:42.037 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+22-Jun-2023 18:55:42.037 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-18.0.2.1
+22-Jun-2023 18:55:42.038 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           18.0.2.1+1-1
+22-Jun-2023 18:55:42.038 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+22-Jun-2023 18:55:42.038 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89
+22-Jun-2023 18:55:42.038 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89
+22-Jun-2023 18:55:42.039 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+22-Jun-2023 18:55:42.039 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+22-Jun-2023 18:55:42.039 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+22-Jun-2023 18:55:42.039 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+22-Jun-2023 18:55:42.039 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+22-Jun-2023 18:55:42.039 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\conf\logging.properties
+22-Jun-2023 18:55:42.039 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+22-Jun-2023 18:55:42.039 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+22-Jun-2023 18:55:42.041 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+22-Jun-2023 18:55:42.041 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+22-Jun-2023 18:55:42.041 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89
+22-Jun-2023 18:55:42.041 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89
+22-Jun-2023 18:55:42.041 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\temp
+22-Jun-2023 18:55:42.041 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.36] using APR version [1.7.2].
+22-Jun-2023 18:55:42.042 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [{4}].
+22-Jun-2023 18:55:42.131 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+22-Jun-2023 18:55:42.143 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1t  7 Feb 2023]
+22-Jun-2023 18:55:42.225 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+22-Jun-2023 18:55:42.279 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1159 ms
+22-Jun-2023 18:55:42.345 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+22-Jun-2023 18:55:42.345 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.89]
+22-Jun-2023 18:55:42.359 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\conf\Catalina\localhost\ClassWork2.xml]
+22-Jun-2023 18:55:42.431 SEVERE [localhost-startStop-1] org.apache.catalina.core.ContainerBase.addChildInternal ContainerBase.addChild: start: 
+	org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@32a957af]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4605)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4743)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:711)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:688)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:661)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:673)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1881)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [D:\Java\ClassWork2\build\web] is not a directory or war file, or is not readable (it does not exist or permissions to access it are missing)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:720)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:678)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 13 more
+22-Jun-2023 18:55:42.433 SEVERE [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\conf\Catalina\localhost\ClassWork2.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:715)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:688)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:661)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:673)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1881)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@32a957af]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4605)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4743)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:711)
+		... 9 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [D:\Java\ClassWork2\build\web] is not a directory or war file, or is not readable (it does not exist or permissions to access it are missing)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:720)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:678)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 13 more
+22-Jun-2023 18:55:42.477 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\conf\Catalina\localhost\ClassWork2.xml] has finished in [117] ms
+22-Jun-2023 18:55:42.478 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\conf\Catalina\localhost\test.xml]
+22-Jun-2023 18:55:42.486 SEVERE [localhost-startStop-1] org.apache.catalina.core.ContainerBase.addChildInternal ContainerBase.addChild: start: 
+	org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@4e370e75]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4605)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4743)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:711)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:688)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:661)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:673)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1881)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [D:\Java\test\build\web] is not a directory or war file, or is not readable (it does not exist or permissions to access it are missing)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:720)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:678)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 13 more
+22-Jun-2023 18:55:42.487 SEVERE [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\conf\Catalina\localhost\test.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:715)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:688)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:661)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:673)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1881)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@4e370e75]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4605)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4743)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:711)
+		... 9 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [D:\Java\test\build\web] is not a directory or war file, or is not readable (it does not exist or permissions to access it are missing)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:720)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:678)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 13 more
+22-Jun-2023 18:55:42.692 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\conf\Catalina\localhost\test.xml] has finished in [214] ms
+22-Jun-2023 18:55:42.693 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\webapps\docs]
+22-Jun-2023 18:55:43.178 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\webapps\docs] has finished in [484] ms
+22-Jun-2023 18:55:43.179 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\webapps\examples]
+22-Jun-2023 18:55:44.271 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\webapps\examples] has finished in [1,093] ms
+22-Jun-2023 18:55:44.272 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\webapps\host-manager]
+22-Jun-2023 18:55:44.323 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\webapps\host-manager] has finished in [51] ms
+22-Jun-2023 18:55:44.323 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\webapps\manager]
+22-Jun-2023 18:55:44.392 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\webapps\manager] has finished in [69] ms
+22-Jun-2023 18:55:44.392 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\webapps\ROOT]
+22-Jun-2023 18:55:44.430 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\webapps\ROOT] has finished in [37] ms
+22-Jun-2023 18:55:44.433 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+22-Jun-2023 18:55:44.507 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2226 ms
+22-Jun-2023 19:00:35.170 INFO [http-nio-8080-exec-3] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\conf\Catalina\localhost\WebApplication1.xml]
+22-Jun-2023 19:00:35.224 INFO [http-nio-8080-exec-3] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\conf\Catalina\localhost\WebApplication1.xml] has finished in [55] ms
+22-Jun-2023 19:00:35.232 INFO [http-nio-8080-exec-5] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/WebApplication1]] after start() had already been called. The second call will be ignored.
+22-Jun-2023 19:03:18.074 INFO [http-nio-8080-exec-6] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\conf\Catalina\localhost\Bai14_BookStore_KetNoiDuLieu.xml]
+22-Jun-2023 19:03:18.268 INFO [http-nio-8080-exec-6] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Jun-2023 19:03:18.272 INFO [http-nio-8080-exec-6] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\conf\Catalina\localhost\Bai14_BookStore_KetNoiDuLieu.xml] has finished in [198] ms
+22-Jun-2023 19:03:18.278 INFO [http-nio-8080-exec-7] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Bai14_BookStore_KetNoiDuLieu]] after start() had already been called. The second call will be ignored.
+22-Jun-2023 19:06:39.500 INFO [http-nio-8080-exec-8] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Bai14_BookStore_KetNoiDuLieu] has started
+22-Jun-2023 19:06:40.035 INFO [http-nio-8080-exec-8] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Jun-2023 19:06:40.038 INFO [http-nio-8080-exec-8] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Bai14_BookStore_KetNoiDuLieu] is completed
+22-Jun-2023 19:06:47.177 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+22-Jun-2023 19:06:47.177 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+22-Jun-2023 19:06:47.187 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+22-Jun-2023 19:06:47.207 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+22-Jun-2023 19:06:47.222 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+22-Jun-2023 19:07:33.325 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.89
+22-Jun-2023 19:07:33.331 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 9 2023 16:21:47 UTC
+22-Jun-2023 19:07:33.331 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.89.0
+22-Jun-2023 19:07:33.331 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+22-Jun-2023 19:07:33.331 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+22-Jun-2023 19:07:33.332 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+22-Jun-2023 19:07:33.332 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-18.0.2.1
+22-Jun-2023 19:07:33.332 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           18.0.2.1+1-1
+22-Jun-2023 19:07:33.332 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+22-Jun-2023 19:07:33.332 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89
+22-Jun-2023 19:07:33.333 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89
+22-Jun-2023 19:07:33.334 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+22-Jun-2023 19:07:33.335 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+22-Jun-2023 19:07:33.335 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+22-Jun-2023 19:07:33.336 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+22-Jun-2023 19:07:33.336 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+22-Jun-2023 19:07:33.336 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\conf\logging.properties
+22-Jun-2023 19:07:33.336 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+22-Jun-2023 19:07:33.336 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+22-Jun-2023 19:07:33.336 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+22-Jun-2023 19:07:33.337 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+22-Jun-2023 19:07:33.337 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89
+22-Jun-2023 19:07:33.337 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89
+22-Jun-2023 19:07:33.337 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\temp
+22-Jun-2023 19:07:33.337 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.36] using APR version [1.7.2].
+22-Jun-2023 19:07:33.338 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [{4}].
+22-Jun-2023 19:07:33.382 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+22-Jun-2023 19:07:33.390 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1t  7 Feb 2023]
+22-Jun-2023 19:07:33.475 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+22-Jun-2023 19:07:33.517 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 907 ms
+22-Jun-2023 19:07:33.583 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+22-Jun-2023 19:07:33.583 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.89]
+22-Jun-2023 19:07:33.596 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\conf\Catalina\localhost\Bai14_BookStore_KetNoiDuLieu.xml]
+22-Jun-2023 19:07:34.492 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Jun-2023 19:07:34.609 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\conf\Catalina\localhost\Bai14_BookStore_KetNoiDuLieu.xml] has finished in [1,012] ms
+22-Jun-2023 19:07:34.610 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\conf\Catalina\localhost\ClassWork2.xml]
+22-Jun-2023 19:07:34.617 SEVERE [localhost-startStop-1] org.apache.catalina.core.ContainerBase.addChildInternal ContainerBase.addChild: start: 
+	org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@68385cfa]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4605)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4743)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:711)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:688)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:661)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:673)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1881)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [D:\Java\ClassWork2\build\web] is not a directory or war file, or is not readable (it does not exist or permissions to access it are missing)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:720)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:678)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 13 more
+22-Jun-2023 19:07:34.618 SEVERE [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\conf\Catalina\localhost\ClassWork2.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:715)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:688)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:661)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:673)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1881)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@68385cfa]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4605)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4743)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:711)
+		... 9 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [D:\Java\ClassWork2\build\web] is not a directory or war file, or is not readable (it does not exist or permissions to access it are missing)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:720)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:678)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 13 more
+22-Jun-2023 19:07:34.632 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\conf\Catalina\localhost\ClassWork2.xml] has finished in [21] ms
+22-Jun-2023 19:07:34.632 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\conf\Catalina\localhost\test.xml]
+22-Jun-2023 19:07:34.639 SEVERE [localhost-startStop-1] org.apache.catalina.core.ContainerBase.addChildInternal ContainerBase.addChild: start: 
+	org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@420d89ce]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4605)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4743)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:711)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:688)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:661)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:673)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1881)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [D:\Java\test\build\web] is not a directory or war file, or is not readable (it does not exist or permissions to access it are missing)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:720)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:678)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 13 more
+22-Jun-2023 19:07:34.640 SEVERE [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\conf\Catalina\localhost\test.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:715)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:688)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:661)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:673)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1881)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@420d89ce]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4605)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4743)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:711)
+		... 9 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [D:\Java\test\build\web] is not a directory or war file, or is not readable (it does not exist or permissions to access it are missing)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:720)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:678)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 13 more
+22-Jun-2023 19:07:34.709 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\conf\Catalina\localhost\test.xml] has finished in [76] ms
+22-Jun-2023 19:07:34.709 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\conf\Catalina\localhost\WebApplication1.xml]
+22-Jun-2023 19:07:34.765 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\conf\Catalina\localhost\WebApplication1.xml] has finished in [56] ms
+22-Jun-2023 19:07:34.765 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\webapps\docs]
+22-Jun-2023 19:07:34.807 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\webapps\docs] has finished in [42] ms
+22-Jun-2023 19:07:34.807 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\webapps\examples]
+22-Jun-2023 19:07:35.301 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\webapps\examples] has finished in [494] ms
+22-Jun-2023 19:07:35.301 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\webapps\host-manager]
+22-Jun-2023 19:07:35.360 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\webapps\host-manager] has finished in [59] ms
+22-Jun-2023 19:07:35.361 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\webapps\manager]
+22-Jun-2023 19:07:35.420 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\webapps\manager] has finished in [59] ms
+22-Jun-2023 19:07:35.420 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\webapps\ROOT]
+22-Jun-2023 19:07:35.456 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\webapps\ROOT] has finished in [36] ms
+22-Jun-2023 19:07:35.461 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+22-Jun-2023 19:07:35.537 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2017 ms
+22-Jun-2023 19:07:38.621 INFO [http-nio-8080-exec-9] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/Bai14_BookStore_KetNoiDuLieu]
+22-Jun-2023 19:07:38.639 INFO [http-nio-8080-exec-8] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\conf\Catalina\localhost\Bai14_BookStore_KetNoiDuLieu.xml]
+22-Jun-2023 19:07:38.936 INFO [http-nio-8080-exec-8] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Jun-2023 19:07:38.941 INFO [http-nio-8080-exec-8] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\conf\Catalina\localhost\Bai14_BookStore_KetNoiDuLieu.xml] has finished in [302] ms
+22-Jun-2023 19:08:53.926 INFO [http-nio-8080-exec-7] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Jun-2023 19:08:55.554 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context [/Bai14_BookStore_KetNoiDuLieu]
+22-Jun-2023 19:08:55.555 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Bai14_BookStore_KetNoiDuLieu] has started
+22-Jun-2023 19:08:55.843 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Jun-2023 19:08:55.847 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Bai14_BookStore_KetNoiDuLieu] is completed
+22-Jun-2023 19:09:16.557 INFO [http-nio-8080-exec-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Jun-2023 19:12:58.797 INFO [http-nio-8080-exec-24] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/Bai14_BookStore_KetNoiDuLieu]
+22-Jun-2023 19:12:58.827 INFO [http-nio-8080-exec-25] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\conf\Catalina\localhost\Bai14_BookStore_KetNoiDuLieu.xml]
+22-Jun-2023 19:12:59.279 INFO [http-nio-8080-exec-25] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Jun-2023 19:12:59.284 INFO [http-nio-8080-exec-25] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\conf\Catalina\localhost\Bai14_BookStore_KetNoiDuLieu.xml] has finished in [456] ms
+22-Jun-2023 19:12:59.290 INFO [http-nio-8080-exec-19] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Bai14_BookStore_KetNoiDuLieu]] after start() had already been called. The second call will be ignored.
+22-Jun-2023 19:14:11.082 WARNING [http-nio-8080-exec-33] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Bai14_BookStore_KetNoiDuLieu] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+22-Jun-2023 19:14:11.083 WARNING [http-nio-8080-exec-33] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Bai14_BookStore_KetNoiDuLieu] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+22-Jun-2023 19:14:11.591 INFO [http-nio-8080-exec-33] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/Bai14_BookStore_KetNoiDuLieu]
+22-Jun-2023 19:14:26.590 INFO [http-nio-8080-exec-33] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/WebApplication1]
+22-Jun-2023 19:14:27.098 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/WebApplication1]
+22-Jun-2023 19:15:09.139 INFO [http-nio-8080-exec-26] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\conf\Catalina\localhost\Bai14_BookStore_KetNoiDuLieu.xml]
+22-Jun-2023 19:15:09.500 INFO [http-nio-8080-exec-26] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Jun-2023 19:15:09.506 INFO [http-nio-8080-exec-26] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\conf\Catalina\localhost\Bai14_BookStore_KetNoiDuLieu.xml] has finished in [366] ms
+22-Jun-2023 19:15:09.512 INFO [http-nio-8080-exec-29] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Bai14_BookStore_KetNoiDuLieu]] after start() had already been called. The second call will be ignored.
+22-Jun-2023 19:44:55.777 INFO [http-nio-8080-exec-44] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\conf\Catalina\localhost\PresonnalProject.xml]
+22-Jun-2023 19:44:55.931 INFO [http-nio-8080-exec-44] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Jun-2023 19:44:55.935 INFO [http-nio-8080-exec-44] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\conf\Catalina\localhost\PresonnalProject.xml] has finished in [159] ms
+22-Jun-2023 19:44:55.940 INFO [http-nio-8080-exec-39] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/PresonnalProject]] after start() had already been called. The second call will be ignored.
+22-Jun-2023 19:46:46.287 INFO [http-nio-8080-exec-40] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] has started
+22-Jun-2023 19:46:46.452 INFO [http-nio-8080-exec-40] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Jun-2023 19:46:46.469 INFO [http-nio-8080-exec-40] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] is completed
+22-Jun-2023 19:47:17.997 INFO [http-nio-8080-exec-44] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] has started
+22-Jun-2023 19:47:18.150 INFO [http-nio-8080-exec-44] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Jun-2023 19:47:18.169 INFO [http-nio-8080-exec-44] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] is completed
+22-Jun-2023 19:48:52.539 INFO [http-nio-8080-exec-46] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] has started
+22-Jun-2023 19:48:52.732 INFO [http-nio-8080-exec-46] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Jun-2023 19:48:52.738 INFO [http-nio-8080-exec-46] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] is completed
+22-Jun-2023 19:48:53.070 INFO [http-nio-8080-exec-50] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] has started
+22-Jun-2023 19:48:53.253 INFO [http-nio-8080-exec-50] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Jun-2023 19:48:53.260 INFO [http-nio-8080-exec-50] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] is completed
+22-Jun-2023 20:03:55.818 INFO [http-nio-8080-exec-54] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] has started
+22-Jun-2023 20:03:55.976 INFO [http-nio-8080-exec-54] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Jun-2023 20:03:55.980 INFO [http-nio-8080-exec-54] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] is completed
+22-Jun-2023 20:04:27.883 INFO [http-nio-8080-exec-56] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] has started
+22-Jun-2023 20:04:28.058 INFO [http-nio-8080-exec-56] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Jun-2023 20:04:28.064 INFO [http-nio-8080-exec-56] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] is completed
+22-Jun-2023 20:04:28.725 INFO [http-nio-8080-exec-61] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] has started
+22-Jun-2023 20:04:28.899 INFO [http-nio-8080-exec-61] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Jun-2023 20:04:28.905 INFO [http-nio-8080-exec-61] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] is completed
+22-Jun-2023 20:09:25.232 INFO [http-nio-8080-exec-66] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] has started
+22-Jun-2023 20:09:25.386 INFO [http-nio-8080-exec-66] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Jun-2023 20:09:25.399 INFO [http-nio-8080-exec-66] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] is completed
+22-Jun-2023 20:10:42.287 INFO [http-nio-8080-exec-59] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] has started
+22-Jun-2023 20:10:42.452 INFO [http-nio-8080-exec-59] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Jun-2023 20:10:42.457 INFO [http-nio-8080-exec-59] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] is completed
+22-Jun-2023 20:16:29.056 INFO [http-nio-8080-exec-75] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] has started
+22-Jun-2023 20:16:29.067 WARNING [http-nio-8080-exec-75] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [PresonnalProject] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+22-Jun-2023 20:16:29.067 WARNING [http-nio-8080-exec-75] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [PresonnalProject] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+22-Jun-2023 20:16:29.067 WARNING [http-nio-8080-exec-75] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [PresonnalProject] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+22-Jun-2023 20:16:29.067 WARNING [http-nio-8080-exec-75] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [PresonnalProject] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+22-Jun-2023 20:16:29.268 INFO [http-nio-8080-exec-75] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Jun-2023 20:16:29.273 INFO [http-nio-8080-exec-75] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] is completed
+22-Jun-2023 20:16:29.828 INFO [http-nio-8080-exec-73] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] has started
+22-Jun-2023 20:16:30.002 INFO [http-nio-8080-exec-73] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Jun-2023 20:16:30.007 INFO [http-nio-8080-exec-73] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] is completed
+22-Jun-2023 20:19:29.936 INFO [http-nio-8080-exec-78] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] has started
+22-Jun-2023 20:19:30.087 INFO [http-nio-8080-exec-78] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Jun-2023 20:19:30.094 INFO [http-nio-8080-exec-78] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] is completed
+22-Jun-2023 20:19:46.636 INFO [http-nio-8080-exec-80] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] has started
+22-Jun-2023 20:19:46.793 INFO [http-nio-8080-exec-80] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Jun-2023 20:19:46.798 INFO [http-nio-8080-exec-80] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] is completed
+22-Jun-2023 20:23:04.172 INFO [http-nio-8080-exec-93] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] has started
+22-Jun-2023 20:23:04.177 WARNING [http-nio-8080-exec-93] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [PresonnalProject] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+22-Jun-2023 20:23:04.177 WARNING [http-nio-8080-exec-93] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [PresonnalProject] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+22-Jun-2023 20:23:04.177 WARNING [http-nio-8080-exec-93] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [PresonnalProject] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+22-Jun-2023 20:23:04.318 INFO [http-nio-8080-exec-93] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Jun-2023 20:23:04.332 INFO [http-nio-8080-exec-93] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] is completed
+22-Jun-2023 20:31:41.315 INFO [http-nio-8080-exec-99] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] has started
+22-Jun-2023 20:31:41.319 WARNING [http-nio-8080-exec-99] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [PresonnalProject] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+22-Jun-2023 20:31:41.319 WARNING [http-nio-8080-exec-99] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [PresonnalProject] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+22-Jun-2023 20:31:41.319 WARNING [http-nio-8080-exec-99] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [PresonnalProject] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+22-Jun-2023 20:31:41.400 INFO [http-nio-8080-exec-99] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Jun-2023 20:31:41.409 INFO [http-nio-8080-exec-99] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] is completed
+22-Jun-2023 20:38:18.007 INFO [http-nio-8080-exec-109] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] has started
+22-Jun-2023 20:38:18.009 WARNING [http-nio-8080-exec-109] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [PresonnalProject] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+22-Jun-2023 20:38:18.009 WARNING [http-nio-8080-exec-109] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [PresonnalProject] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+22-Jun-2023 20:38:18.078 INFO [http-nio-8080-exec-109] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Jun-2023 20:38:18.084 INFO [http-nio-8080-exec-109] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] is completed
+22-Jun-2023 20:41:37.156 INFO [http-nio-8080-exec-119] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] has started
+22-Jun-2023 20:41:37.159 WARNING [http-nio-8080-exec-119] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [PresonnalProject] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+22-Jun-2023 20:41:37.159 WARNING [http-nio-8080-exec-119] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [PresonnalProject] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+22-Jun-2023 20:41:37.324 INFO [http-nio-8080-exec-119] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Jun-2023 20:41:37.336 INFO [http-nio-8080-exec-119] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] is completed
+22-Jun-2023 20:47:05.343 INFO [http-nio-8080-exec-133] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] has started
+22-Jun-2023 20:47:05.344 WARNING [http-nio-8080-exec-133] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [PresonnalProject] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+22-Jun-2023 20:47:05.345 WARNING [http-nio-8080-exec-133] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [PresonnalProject] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+22-Jun-2023 20:47:05.412 INFO [http-nio-8080-exec-133] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Jun-2023 20:47:05.421 INFO [http-nio-8080-exec-133] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] is completed
+22-Jun-2023 20:55:58.916 INFO [http-nio-8080-exec-142] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] has started
+22-Jun-2023 20:55:59.074 INFO [http-nio-8080-exec-142] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Jun-2023 20:55:59.079 INFO [http-nio-8080-exec-142] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] is completed
+22-Jun-2023 20:55:59.705 INFO [http-nio-8080-exec-136] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] has started
+22-Jun-2023 20:55:59.893 INFO [http-nio-8080-exec-136] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Jun-2023 20:55:59.899 INFO [http-nio-8080-exec-136] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] is completed
+22-Jun-2023 20:57:16.521 INFO [http-nio-8080-exec-143] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] has started
+22-Jun-2023 20:57:16.675 INFO [http-nio-8080-exec-143] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Jun-2023 20:57:16.680 INFO [http-nio-8080-exec-143] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] is completed
+22-Jun-2023 20:58:32.196 INFO [http-nio-8080-exec-141] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] has started
+22-Jun-2023 20:58:32.381 INFO [http-nio-8080-exec-141] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Jun-2023 20:58:32.386 INFO [http-nio-8080-exec-141] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] is completed
+22-Jun-2023 20:58:32.757 INFO [http-nio-8080-exec-146] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] has started
+22-Jun-2023 20:58:32.953 INFO [http-nio-8080-exec-146] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Jun-2023 20:58:32.959 INFO [http-nio-8080-exec-146] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] is completed
+22-Jun-2023 20:58:33.023 INFO [http-nio-8080-exec-144] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] has started
+22-Jun-2023 20:58:33.223 INFO [http-nio-8080-exec-144] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Jun-2023 20:58:33.231 INFO [http-nio-8080-exec-144] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] is completed
+22-Jun-2023 21:11:24.146 INFO [http-nio-8080-exec-153] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] has started
+22-Jun-2023 21:11:24.210 INFO [http-nio-8080-exec-153] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Jun-2023 21:11:24.212 INFO [http-nio-8080-exec-153] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] is completed
+22-Jun-2023 21:12:36.964 INFO [http-nio-8080-exec-151] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] has started
+22-Jun-2023 21:12:37.039 INFO [http-nio-8080-exec-151] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Jun-2023 21:12:37.041 INFO [http-nio-8080-exec-151] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] is completed
+22-Jun-2023 21:12:37.171 INFO [http-nio-8080-exec-157] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] has started
+22-Jun-2023 21:12:37.250 INFO [http-nio-8080-exec-157] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Jun-2023 21:12:37.253 INFO [http-nio-8080-exec-157] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] is completed
+22-Jun-2023 21:12:37.279 INFO [http-nio-8080-exec-155] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] has started
+22-Jun-2023 21:12:37.353 INFO [http-nio-8080-exec-155] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Jun-2023 21:12:37.355 INFO [http-nio-8080-exec-155] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] is completed
+22-Jun-2023 21:16:49.109 INFO [http-nio-8080-exec-168] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] has started
+22-Jun-2023 21:16:49.265 INFO [http-nio-8080-exec-168] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Jun-2023 21:16:49.278 INFO [http-nio-8080-exec-168] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] is completed
+22-Jun-2023 21:17:16.020 INFO [http-nio-8080-exec-162] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] has started
+22-Jun-2023 21:17:16.118 INFO [http-nio-8080-exec-162] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Jun-2023 21:17:16.121 INFO [http-nio-8080-exec-162] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] is completed
+22-Jun-2023 21:17:16.273 INFO [http-nio-8080-exec-169] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] has started
+22-Jun-2023 21:17:16.357 INFO [http-nio-8080-exec-169] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Jun-2023 21:17:16.359 INFO [http-nio-8080-exec-169] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] is completed
+22-Jun-2023 21:17:16.396 INFO [http-nio-8080-exec-168] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] has started
+22-Jun-2023 21:17:16.485 INFO [http-nio-8080-exec-168] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Jun-2023 21:17:16.488 INFO [http-nio-8080-exec-168] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] is completed
+22-Jun-2023 21:28:58.083 INFO [http-nio-8080-exec-173] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] has started
+22-Jun-2023 21:28:58.272 INFO [http-nio-8080-exec-173] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Jun-2023 21:28:58.275 INFO [http-nio-8080-exec-173] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] is completed
+22-Jun-2023 21:28:58.342 INFO [http-nio-8080-exec-178] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] has started
+22-Jun-2023 21:28:58.511 INFO [http-nio-8080-exec-178] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Jun-2023 21:28:58.513 INFO [http-nio-8080-exec-178] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] is completed
+22-Jun-2023 21:29:02.784 INFO [http-nio-8080-exec-170] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] has started
+22-Jun-2023 21:29:02.945 INFO [http-nio-8080-exec-170] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Jun-2023 21:29:02.948 INFO [http-nio-8080-exec-170] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] is completed
+22-Jun-2023 21:31:58.309 INFO [http-nio-8080-exec-184] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] has started
+22-Jun-2023 21:31:58.483 INFO [http-nio-8080-exec-184] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Jun-2023 21:31:58.487 INFO [http-nio-8080-exec-184] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] is completed
+22-Jun-2023 21:31:58.566 INFO [http-nio-8080-exec-171] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] has started
+22-Jun-2023 21:31:58.721 INFO [http-nio-8080-exec-171] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Jun-2023 21:31:58.724 INFO [http-nio-8080-exec-171] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] is completed
+22-Jun-2023 21:32:42.860 INFO [http-nio-8080-exec-180] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] has started
+22-Jun-2023 21:32:42.927 INFO [http-nio-8080-exec-180] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Jun-2023 21:32:42.928 INFO [http-nio-8080-exec-180] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] is completed
+22-Jun-2023 21:36:28.070 INFO [http-nio-8080-exec-189] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] has started
+22-Jun-2023 21:36:28.138 INFO [http-nio-8080-exec-189] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Jun-2023 21:36:28.139 INFO [http-nio-8080-exec-189] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] is completed
+22-Jun-2023 21:39:16.129 INFO [http-nio-8080-exec-192] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] has started
+22-Jun-2023 21:39:16.192 INFO [http-nio-8080-exec-192] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Jun-2023 21:39:16.192 INFO [http-nio-8080-exec-192] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] is completed
+22-Jun-2023 21:42:59.969 INFO [http-nio-8080-exec-196] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] has started
+22-Jun-2023 21:43:00.042 INFO [http-nio-8080-exec-196] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Jun-2023 21:43:00.043 INFO [http-nio-8080-exec-196] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] is completed
+22-Jun-2023 21:46:26.198 INFO [http-nio-8080-exec-196] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] has started
+22-Jun-2023 21:46:26.263 INFO [http-nio-8080-exec-196] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Jun-2023 21:46:26.264 INFO [http-nio-8080-exec-196] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] is completed
+22-Jun-2023 21:47:42.444 INFO [http-nio-8080-exec-203] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] has started
+22-Jun-2023 21:47:42.446 WARNING [http-nio-8080-exec-203] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [PresonnalProject] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+22-Jun-2023 21:47:42.446 WARNING [http-nio-8080-exec-203] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [PresonnalProject] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+22-Jun-2023 21:47:42.511 INFO [http-nio-8080-exec-203] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Jun-2023 21:47:42.518 INFO [http-nio-8080-exec-203] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] is completed
+22-Jun-2023 21:48:02.479 INFO [http-nio-8080-exec-198] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] has started
+22-Jun-2023 21:48:02.543 INFO [http-nio-8080-exec-198] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Jun-2023 21:48:02.544 INFO [http-nio-8080-exec-198] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] is completed
+22-Jun-2023 21:50:06.907 INFO [http-nio-8080-exec-211] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] has started
+22-Jun-2023 21:50:06.909 WARNING [http-nio-8080-exec-211] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [PresonnalProject] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+22-Jun-2023 21:50:06.909 WARNING [http-nio-8080-exec-211] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [PresonnalProject] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+22-Jun-2023 21:50:06.975 INFO [http-nio-8080-exec-211] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Jun-2023 21:50:06.981 INFO [http-nio-8080-exec-211] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] is completed
+22-Jun-2023 21:53:17.168 INFO [http-nio-8080-exec-215] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] has started
+22-Jun-2023 21:53:17.291 INFO [http-nio-8080-exec-215] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Jun-2023 21:53:17.299 INFO [http-nio-8080-exec-215] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] is completed
+22-Jun-2023 21:53:17.611 INFO [http-nio-8080-exec-207] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] has started
+22-Jun-2023 21:53:17.714 INFO [http-nio-8080-exec-207] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Jun-2023 21:53:17.716 INFO [http-nio-8080-exec-207] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] is completed
+22-Jun-2023 21:53:18.752 INFO [http-nio-8080-exec-209] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] has started
+22-Jun-2023 21:53:18.864 INFO [http-nio-8080-exec-209] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Jun-2023 21:53:18.870 INFO [http-nio-8080-exec-209] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] is completed
+22-Jun-2023 21:53:43.979 INFO [http-nio-8080-exec-209] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] has started
+22-Jun-2023 21:53:44.077 INFO [http-nio-8080-exec-209] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Jun-2023 21:53:44.085 INFO [http-nio-8080-exec-209] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] is completed
+22-Jun-2023 22:18:26.563 INFO [http-nio-8080-exec-221] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] has started
+22-Jun-2023 22:18:26.565 WARNING [http-nio-8080-exec-221] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [PresonnalProject] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+22-Jun-2023 22:18:26.565 WARNING [http-nio-8080-exec-221] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [PresonnalProject] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+22-Jun-2023 22:18:26.565 WARNING [http-nio-8080-exec-221] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [PresonnalProject] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+22-Jun-2023 22:18:26.565 WARNING [http-nio-8080-exec-221] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [PresonnalProject] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+22-Jun-2023 22:18:26.565 WARNING [http-nio-8080-exec-221] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [PresonnalProject] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+22-Jun-2023 22:18:26.565 WARNING [http-nio-8080-exec-221] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [PresonnalProject] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+22-Jun-2023 22:18:26.565 WARNING [http-nio-8080-exec-221] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [PresonnalProject] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+22-Jun-2023 22:18:26.565 WARNING [http-nio-8080-exec-221] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [PresonnalProject] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+22-Jun-2023 22:18:26.566 WARNING [http-nio-8080-exec-221] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [PresonnalProject] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+22-Jun-2023 22:18:26.566 WARNING [http-nio-8080-exec-221] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [PresonnalProject] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+22-Jun-2023 22:18:26.666 INFO [http-nio-8080-exec-221] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Jun-2023 22:18:26.740 INFO [http-nio-8080-exec-221] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] is completed
+22-Jun-2023 22:18:27.052 INFO [http-nio-8080-exec-222] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] has started
+22-Jun-2023 22:18:27.143 INFO [http-nio-8080-exec-222] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Jun-2023 22:18:27.149 INFO [http-nio-8080-exec-222] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] is completed
+22-Jun-2023 22:18:40.096 INFO [http-nio-8080-exec-229] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] has started
+22-Jun-2023 22:18:40.204 INFO [http-nio-8080-exec-229] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Jun-2023 22:18:40.218 INFO [http-nio-8080-exec-229] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] is completed
+22-Jun-2023 22:18:40.381 INFO [http-nio-8080-exec-219] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] has started
+22-Jun-2023 22:18:40.481 INFO [http-nio-8080-exec-219] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Jun-2023 22:18:40.487 INFO [http-nio-8080-exec-219] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] is completed
+22-Jun-2023 22:21:03.882 INFO [http-nio-8080-exec-226] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] has started
+22-Jun-2023 22:21:03.980 INFO [http-nio-8080-exec-226] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Jun-2023 22:21:03.986 INFO [http-nio-8080-exec-226] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] is completed
+22-Jun-2023 22:22:45.234 INFO [http-nio-8080-exec-232] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] has started
+22-Jun-2023 22:22:45.327 INFO [http-nio-8080-exec-232] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Jun-2023 22:22:45.327 INFO [http-nio-8080-exec-232] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] is completed
+22-Jun-2023 22:29:34.503 INFO [http-nio-8080-exec-232] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] has started
+22-Jun-2023 22:29:34.595 INFO [http-nio-8080-exec-232] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Jun-2023 22:29:34.605 INFO [http-nio-8080-exec-232] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] is completed
+22-Jun-2023 22:39:11.548 INFO [http-nio-8080-exec-244] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] has started
+22-Jun-2023 22:39:11.549 WARNING [http-nio-8080-exec-244] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [PresonnalProject] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+22-Jun-2023 22:39:11.549 WARNING [http-nio-8080-exec-244] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [PresonnalProject] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+22-Jun-2023 22:39:11.550 WARNING [http-nio-8080-exec-244] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [PresonnalProject] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+22-Jun-2023 22:39:11.550 WARNING [http-nio-8080-exec-244] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [PresonnalProject] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+22-Jun-2023 22:39:11.550 WARNING [http-nio-8080-exec-244] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [PresonnalProject] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+22-Jun-2023 22:39:11.550 WARNING [http-nio-8080-exec-244] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [PresonnalProject] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+22-Jun-2023 22:39:11.550 WARNING [http-nio-8080-exec-244] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [PresonnalProject] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+22-Jun-2023 22:39:11.550 WARNING [http-nio-8080-exec-244] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [PresonnalProject] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+22-Jun-2023 22:39:11.550 WARNING [http-nio-8080-exec-244] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [PresonnalProject] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+22-Jun-2023 22:39:11.550 WARNING [http-nio-8080-exec-244] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [PresonnalProject] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+22-Jun-2023 22:39:11.550 WARNING [http-nio-8080-exec-244] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [PresonnalProject] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+22-Jun-2023 22:39:11.616 WARNING [http-nio-8080-exec-244] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [PresonnalProject] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+22-Jun-2023 22:39:11.616 WARNING [http-nio-8080-exec-244] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [PresonnalProject] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+22-Jun-2023 22:39:11.616 WARNING [http-nio-8080-exec-244] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [PresonnalProject] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+22-Jun-2023 22:39:11.734 INFO [http-nio-8080-exec-244] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Jun-2023 22:39:11.744 INFO [http-nio-8080-exec-244] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] is completed
+22-Jun-2023 22:39:12.055 INFO [http-nio-8080-exec-252] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] has started
+22-Jun-2023 22:39:12.151 INFO [http-nio-8080-exec-252] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Jun-2023 22:39:12.157 INFO [http-nio-8080-exec-252] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] is completed
+22-Jun-2023 22:39:54.608 INFO [http-nio-8080-exec-251] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] has started
+22-Jun-2023 22:39:54.609 WARNING [http-nio-8080-exec-251] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [PresonnalProject] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+22-Jun-2023 22:39:54.609 WARNING [http-nio-8080-exec-251] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [PresonnalProject] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+22-Jun-2023 22:39:54.609 WARNING [http-nio-8080-exec-251] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [PresonnalProject] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+22-Jun-2023 22:39:54.609 WARNING [http-nio-8080-exec-251] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [PresonnalProject] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+22-Jun-2023 22:39:54.609 WARNING [http-nio-8080-exec-251] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [PresonnalProject] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+22-Jun-2023 22:39:54.609 WARNING [http-nio-8080-exec-251] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [PresonnalProject] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+22-Jun-2023 22:39:54.720 INFO [http-nio-8080-exec-251] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Jun-2023 22:39:54.733 INFO [http-nio-8080-exec-251] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] is completed
+22-Jun-2023 22:39:55.046 INFO [http-nio-8080-exec-245] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] has started
+22-Jun-2023 22:39:55.135 INFO [http-nio-8080-exec-245] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Jun-2023 22:39:55.141 INFO [http-nio-8080-exec-245] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] is completed
+22-Jun-2023 22:42:11.577 INFO [http-nio-8080-exec-257] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] has started
+22-Jun-2023 22:42:11.578 WARNING [http-nio-8080-exec-257] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [PresonnalProject] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+22-Jun-2023 22:42:11.578 WARNING [http-nio-8080-exec-257] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [PresonnalProject] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+22-Jun-2023 22:42:11.578 WARNING [http-nio-8080-exec-257] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [PresonnalProject] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+22-Jun-2023 22:42:11.578 WARNING [http-nio-8080-exec-257] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [PresonnalProject] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+22-Jun-2023 22:42:11.578 WARNING [http-nio-8080-exec-257] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [PresonnalProject] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+22-Jun-2023 22:42:11.578 WARNING [http-nio-8080-exec-257] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [PresonnalProject] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+22-Jun-2023 22:42:11.578 WARNING [http-nio-8080-exec-257] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [PresonnalProject] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+22-Jun-2023 22:42:11.678 INFO [http-nio-8080-exec-257] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Jun-2023 22:42:11.688 INFO [http-nio-8080-exec-257] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] is completed
+22-Jun-2023 22:42:11.998 INFO [http-nio-8080-exec-259] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] has started
+22-Jun-2023 22:42:12.095 INFO [http-nio-8080-exec-259] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Jun-2023 22:42:12.100 INFO [http-nio-8080-exec-259] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] is completed
+22-Jun-2023 22:42:44.462 INFO [http-nio-8080-exec-257] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] has started
+22-Jun-2023 22:42:44.552 INFO [http-nio-8080-exec-257] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Jun-2023 22:42:44.559 INFO [http-nio-8080-exec-257] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] is completed
+22-Jun-2023 22:46:26.210 INFO [http-nio-8080-exec-272] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] has started
+22-Jun-2023 22:46:26.300 INFO [http-nio-8080-exec-272] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Jun-2023 22:46:26.315 INFO [http-nio-8080-exec-272] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] is completed
+22-Jun-2023 22:47:42.536 INFO [http-nio-8080-exec-270] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] has started
+22-Jun-2023 22:47:42.632 INFO [http-nio-8080-exec-270] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Jun-2023 22:47:42.639 INFO [http-nio-8080-exec-270] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] is completed
+22-Jun-2023 22:47:52.067 INFO [http-nio-8080-exec-274] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] has started
+22-Jun-2023 22:47:52.164 INFO [http-nio-8080-exec-274] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Jun-2023 22:47:52.169 INFO [http-nio-8080-exec-274] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] is completed
+22-Jun-2023 22:52:38.190 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+22-Jun-2023 22:52:38.191 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+22-Jun-2023 22:52:38.196 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+22-Jun-2023 22:52:38.208 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [PresonnalProject] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+22-Jun-2023 22:52:38.208 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [PresonnalProject] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+22-Jun-2023 22:52:38.208 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [PresonnalProject] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+22-Jun-2023 22:52:38.208 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [PresonnalProject] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+22-Jun-2023 22:52:38.208 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [PresonnalProject] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+22-Jun-2023 22:52:38.208 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [PresonnalProject] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+22-Jun-2023 22:52:38.211 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+22-Jun-2023 22:52:38.227 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+22-Jun-2023 23:51:10.244 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.89
+22-Jun-2023 23:51:10.246 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 9 2023 16:21:47 UTC
+22-Jun-2023 23:51:10.246 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.89.0
+22-Jun-2023 23:51:10.246 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+22-Jun-2023 23:51:10.246 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+22-Jun-2023 23:51:10.247 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+22-Jun-2023 23:51:10.247 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-18.0.2.1
+22-Jun-2023 23:51:10.247 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           18.0.2.1+1-1
+22-Jun-2023 23:51:10.247 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+22-Jun-2023 23:51:10.247 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89
+22-Jun-2023 23:51:10.247 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89
+22-Jun-2023 23:51:10.248 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+22-Jun-2023 23:51:10.248 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+22-Jun-2023 23:51:10.248 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+22-Jun-2023 23:51:10.248 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+22-Jun-2023 23:51:10.249 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+22-Jun-2023 23:51:10.249 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\conf\logging.properties
+22-Jun-2023 23:51:10.249 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+22-Jun-2023 23:51:10.249 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+22-Jun-2023 23:51:10.249 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+22-Jun-2023 23:51:10.249 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+22-Jun-2023 23:51:10.249 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89
+22-Jun-2023 23:51:10.249 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89
+22-Jun-2023 23:51:10.249 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\temp
+22-Jun-2023 23:51:10.251 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.36] using APR version [1.7.2].
+22-Jun-2023 23:51:10.251 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [{4}].
+22-Jun-2023 23:51:10.313 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+22-Jun-2023 23:51:10.317 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1t  7 Feb 2023]
+22-Jun-2023 23:51:10.359 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+22-Jun-2023 23:51:10.382 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 529 ms
+22-Jun-2023 23:51:10.424 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+22-Jun-2023 23:51:10.424 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.89]
+22-Jun-2023 23:51:10.434 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\conf\Catalina\localhost\Bai14_BookStore_KetNoiDuLieu.xml]
+22-Jun-2023 23:51:10.955 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Jun-2023 23:51:11.004 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\conf\Catalina\localhost\Bai14_BookStore_KetNoiDuLieu.xml] has finished in [569] ms
+22-Jun-2023 23:51:11.004 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\conf\Catalina\localhost\ClassWork2.xml]
+22-Jun-2023 23:51:11.007 SEVERE [localhost-startStop-1] org.apache.catalina.core.ContainerBase.addChildInternal ContainerBase.addChild: start: 
+	org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@7f7d507f]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4605)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4743)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:711)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:688)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:661)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:673)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1881)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [D:\Java\ClassWork2\build\web] is not a directory or war file, or is not readable (it does not exist or permissions to access it are missing)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:720)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:678)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 13 more
+22-Jun-2023 23:51:11.008 SEVERE [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\conf\Catalina\localhost\ClassWork2.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:715)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:688)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:661)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:673)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1881)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@7f7d507f]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4605)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4743)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:711)
+		... 9 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [D:\Java\ClassWork2\build\web] is not a directory or war file, or is not readable (it does not exist or permissions to access it are missing)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:720)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:678)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 13 more
+22-Jun-2023 23:51:11.063 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\conf\Catalina\localhost\ClassWork2.xml] has finished in [59] ms
+22-Jun-2023 23:51:11.063 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\conf\Catalina\localhost\PresonnalProject.xml]
+22-Jun-2023 23:51:11.425 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Jun-2023 23:51:11.448 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\conf\Catalina\localhost\PresonnalProject.xml] has finished in [385] ms
+22-Jun-2023 23:51:11.449 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\conf\Catalina\localhost\test.xml]
+22-Jun-2023 23:51:11.453 SEVERE [localhost-startStop-1] org.apache.catalina.core.ContainerBase.addChildInternal ContainerBase.addChild: start: 
+	org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@2d201228]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4605)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4743)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:711)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:688)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:661)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:673)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1881)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [D:\Java\test\build\web] is not a directory or war file, or is not readable (it does not exist or permissions to access it are missing)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:720)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:678)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 13 more
+22-Jun-2023 23:51:11.453 SEVERE [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\conf\Catalina\localhost\test.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:715)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:688)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:661)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:673)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1881)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@2d201228]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4605)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4743)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:711)
+		... 9 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [D:\Java\test\build\web] is not a directory or war file, or is not readable (it does not exist or permissions to access it are missing)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:720)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:678)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 13 more
+22-Jun-2023 23:51:11.476 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\conf\Catalina\localhost\test.xml] has finished in [27] ms
+22-Jun-2023 23:51:11.477 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\webapps\docs]
+22-Jun-2023 23:51:11.501 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\webapps\docs] has finished in [24] ms
+22-Jun-2023 23:51:11.501 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\webapps\examples]
+22-Jun-2023 23:51:11.920 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\webapps\examples] has finished in [418] ms
+22-Jun-2023 23:51:11.920 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\webapps\host-manager]
+22-Jun-2023 23:51:11.947 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\webapps\host-manager] has finished in [26] ms
+22-Jun-2023 23:51:11.947 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\webapps\manager]
+22-Jun-2023 23:51:11.973 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\webapps\manager] has finished in [26] ms
+22-Jun-2023 23:51:11.973 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\webapps\ROOT]
+22-Jun-2023 23:51:11.983 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\webapps\ROOT] has finished in [10] ms
+22-Jun-2023 23:51:11.983 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+22-Jun-2023 23:51:12.024 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1641 ms
+22-Jun-2023 23:55:54.554 INFO [http-nio-8080-exec-9] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] has started
+22-Jun-2023 23:55:54.559 WARNING [http-nio-8080-exec-9] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [PresonnalProject] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+22-Jun-2023 23:55:54.559 WARNING [http-nio-8080-exec-9] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [PresonnalProject] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+22-Jun-2023 23:55:54.709 INFO [http-nio-8080-exec-9] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Jun-2023 23:55:54.728 INFO [http-nio-8080-exec-9] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] is completed
+22-Jun-2023 23:55:54.812 INFO [http-nio-8080-exec-3] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] has started
+22-Jun-2023 23:55:54.948 INFO [http-nio-8080-exec-3] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Jun-2023 23:55:54.956 INFO [http-nio-8080-exec-3] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PresonnalProject] is completed

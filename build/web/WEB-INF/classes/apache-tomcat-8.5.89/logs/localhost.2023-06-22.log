@@ -1,0 +1,499 @@
+22-Jun-2023 18:55:44.255 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+22-Jun-2023 18:55:44.256 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+22-Jun-2023 18:55:44.258 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@21b3ccb1')
+22-Jun-2023 19:03:19.564 SEVERE [http-nio-8080-exec-8] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/Bai14_BookStore_KetNoiDuLieu] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [14] in the generated java file: [D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\work\Catalina\localhost\Bai14_BookStore_KetNoiDuLieu\org\apache\jsp\index_jsp.java]
+Only a type can be imported. model.KhachHang resolves to a package
+
+An error occurred at line: [15] in the generated java file: [D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\work\Catalina\localhost\Bai14_BookStore_KetNoiDuLieu\org\apache\jsp\index_jsp.java]
+Only a type can be imported. model.KhachHang resolves to a package
+
+An error occurred at line: [41] in the jsp file: [/header.jsp]
+KhachHang cannot be resolved to a type
+38:                         <button class="btn btn-outline-success mr-2" type="submit">Tìm</button>
+39:                         <%
+40:                             Object obj = session.getAttribute("khachHang");
+41:                             KhachHang khachHang = null;
+42:                             if (obj != null) {
+43:                                 khachHang = (KhachHang) obj;
+44:                             }
+
+
+An error occurred at line: [43] in the jsp file: [/header.jsp]
+KhachHang cannot be resolved to a type
+40:                             Object obj = session.getAttribute("khachHang");
+41:                             KhachHang khachHang = null;
+42:                             if (obj != null) {
+43:                                 khachHang = (KhachHang) obj;
+44:                             }
+45: 
+46:                             if (khachHang == null) {
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [14] in the generated java file: [D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\work\Catalina\localhost\Bai14_BookStore_KetNoiDuLieu\org\apache\jsp\index_jsp.java]
+Only a type can be imported. model.KhachHang resolves to a package
+
+An error occurred at line: [15] in the generated java file: [D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\work\Catalina\localhost\Bai14_BookStore_KetNoiDuLieu\org\apache\jsp\index_jsp.java]
+Only a type can be imported. model.KhachHang resolves to a package
+
+An error occurred at line: [41] in the jsp file: [/header.jsp]
+KhachHang cannot be resolved to a type
+38:                         <button class="btn btn-outline-success mr-2" type="submit">Tìm</button>
+39:                         <%
+40:                             Object obj = session.getAttribute("khachHang");
+41:                             KhachHang khachHang = null;
+42:                             if (obj != null) {
+43:                                 khachHang = (KhachHang) obj;
+44:                             }
+
+
+An error occurred at line: [43] in the jsp file: [/header.jsp]
+KhachHang cannot be resolved to a type
+40:                             Object obj = session.getAttribute("khachHang");
+41:                             KhachHang khachHang = null;
+42:                             if (obj != null) {
+43:                                 khachHang = (KhachHang) obj;
+44:                             }
+45: 
+46:                             if (khachHang == null) {
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:600)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:381)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:398)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:583)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:212)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:181)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:682)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:617)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:932)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1695)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+22-Jun-2023 19:06:47.193 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+22-Jun-2023 19:06:47.193 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+22-Jun-2023 19:07:35.285 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+22-Jun-2023 19:07:35.285 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+22-Jun-2023 19:07:35.288 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@21cede')
+22-Jun-2023 19:07:40.426 SEVERE [http-nio-8080-exec-6] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/Bai14_BookStore_KetNoiDuLieu] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [14] in the generated java file: [D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\work\Catalina\localhost\Bai14_BookStore_KetNoiDuLieu\org\apache\jsp\index_jsp.java]
+Only a type can be imported. model.KhachHang resolves to a package
+
+An error occurred at line: [15] in the generated java file: [D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\work\Catalina\localhost\Bai14_BookStore_KetNoiDuLieu\org\apache\jsp\index_jsp.java]
+Only a type can be imported. model.KhachHang resolves to a package
+
+An error occurred at line: [41] in the jsp file: [/header.jsp]
+KhachHang cannot be resolved to a type
+38:                         <button class="btn btn-outline-success mr-2" type="submit">Tìm</button>
+39:                         <%
+40:                             Object obj = session.getAttribute("khachHang");
+41:                             KhachHang khachHang = null;
+42:                             if (obj != null) {
+43:                                 khachHang = (KhachHang) obj;
+44:                             }
+
+
+An error occurred at line: [43] in the jsp file: [/header.jsp]
+KhachHang cannot be resolved to a type
+40:                             Object obj = session.getAttribute("khachHang");
+41:                             KhachHang khachHang = null;
+42:                             if (obj != null) {
+43:                                 khachHang = (KhachHang) obj;
+44:                             }
+45: 
+46:                             if (khachHang == null) {
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [14] in the generated java file: [D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\work\Catalina\localhost\Bai14_BookStore_KetNoiDuLieu\org\apache\jsp\index_jsp.java]
+Only a type can be imported. model.KhachHang resolves to a package
+
+An error occurred at line: [15] in the generated java file: [D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\work\Catalina\localhost\Bai14_BookStore_KetNoiDuLieu\org\apache\jsp\index_jsp.java]
+Only a type can be imported. model.KhachHang resolves to a package
+
+An error occurred at line: [41] in the jsp file: [/header.jsp]
+KhachHang cannot be resolved to a type
+38:                         <button class="btn btn-outline-success mr-2" type="submit">Tìm</button>
+39:                         <%
+40:                             Object obj = session.getAttribute("khachHang");
+41:                             KhachHang khachHang = null;
+42:                             if (obj != null) {
+43:                                 khachHang = (KhachHang) obj;
+44:                             }
+
+
+An error occurred at line: [43] in the jsp file: [/header.jsp]
+KhachHang cannot be resolved to a type
+40:                             Object obj = session.getAttribute("khachHang");
+41:                             KhachHang khachHang = null;
+42:                             if (obj != null) {
+43:                                 khachHang = (KhachHang) obj;
+44:                             }
+45: 
+46:                             if (khachHang == null) {
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:600)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:381)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:398)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:583)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:212)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:181)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:682)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:617)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:932)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1695)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+22-Jun-2023 19:09:17.315 SEVERE [http-nio-8080-exec-13] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/Bai14_BookStore_KetNoiDuLieu] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [14] in the generated java file: [D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\work\Catalina\localhost\Bai14_BookStore_KetNoiDuLieu\org\apache\jsp\index_jsp.java]
+Only a type can be imported. model.KhachHang resolves to a package
+
+An error occurred at line: [15] in the generated java file: [D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\work\Catalina\localhost\Bai14_BookStore_KetNoiDuLieu\org\apache\jsp\index_jsp.java]
+Only a type can be imported. model.KhachHang resolves to a package
+
+An error occurred at line: [41] in the jsp file: [/header.jsp]
+KhachHang cannot be resolved to a type
+38:                         <button class="btn btn-outline-success mr-2" type="submit">Tìm</button>
+39:                         <%
+40:                             Object obj = session.getAttribute("khachHang");
+41:                             KhachHang khachHang = null;
+42:                             if (obj != null) {
+43:                                 khachHang = (KhachHang) obj;
+44:                             }
+
+
+An error occurred at line: [43] in the jsp file: [/header.jsp]
+KhachHang cannot be resolved to a type
+40:                             Object obj = session.getAttribute("khachHang");
+41:                             KhachHang khachHang = null;
+42:                             if (obj != null) {
+43:                                 khachHang = (KhachHang) obj;
+44:                             }
+45: 
+46:                             if (khachHang == null) {
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [14] in the generated java file: [D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\work\Catalina\localhost\Bai14_BookStore_KetNoiDuLieu\org\apache\jsp\index_jsp.java]
+Only a type can be imported. model.KhachHang resolves to a package
+
+An error occurred at line: [15] in the generated java file: [D:\Libary for programs\apache-tomcat-8.5.89-windows-x64\apache-tomcat-8.5.89\work\Catalina\localhost\Bai14_BookStore_KetNoiDuLieu\org\apache\jsp\index_jsp.java]
+Only a type can be imported. model.KhachHang resolves to a package
+
+An error occurred at line: [41] in the jsp file: [/header.jsp]
+KhachHang cannot be resolved to a type
+38:                         <button class="btn btn-outline-success mr-2" type="submit">Tìm</button>
+39:                         <%
+40:                             Object obj = session.getAttribute("khachHang");
+41:                             KhachHang khachHang = null;
+42:                             if (obj != null) {
+43:                                 khachHang = (KhachHang) obj;
+44:                             }
+
+
+An error occurred at line: [43] in the jsp file: [/header.jsp]
+KhachHang cannot be resolved to a type
+40:                             Object obj = session.getAttribute("khachHang");
+41:                             KhachHang khachHang = null;
+42:                             if (obj != null) {
+43:                                 khachHang = (KhachHang) obj;
+44:                             }
+45: 
+46:                             if (khachHang == null) {
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:600)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:381)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:398)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:583)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:212)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:181)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:682)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:617)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:932)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1695)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+22-Jun-2023 20:21:10.265 SEVERE [http-nio-8080-exec-83] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [User] in context with path [/PresonnalProject] threw exception
+	java.lang.NullPointerException: Cannot invoke "String.equals(Object)" because "hanhDong" is null
+		at controller.User.processRequest(User.java:43)
+		at controller.User.doPost(User.java:77)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:515)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:583)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:212)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:181)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:682)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:617)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:932)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1695)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+22-Jun-2023 20:22:17.783 SEVERE [http-nio-8080-exec-92] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [User] in context with path [/PresonnalProject] threw exception
+	java.lang.NullPointerException: Cannot invoke "String.equals(Object)" because "hanhDong" is null
+		at controller.User.processRequest(User.java:43)
+		at controller.User.doGet(User.java:63)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:489)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:583)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:212)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:181)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:682)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:617)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:932)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1695)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+22-Jun-2023 20:42:32.713 SEVERE [http-nio-8080-exec-127] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [User] in context with path [/PresonnalProject] threw exception
+	java.lang.NullPointerException: Cannot invoke "String.equals(Object)" because "hanhDong" is null
+		at controller.User.processRequest(User.java:43)
+		at controller.User.doGet(User.java:63)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:489)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:583)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:212)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:181)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:682)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:617)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:932)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1695)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+22-Jun-2023 22:01:03.485 SEVERE [http-nio-8080-exec-221] org.apache.catalina.core.ApplicationDispatcher.invoke Servlet.service() for servlet [jsp] threw exception
+	javax.el.PropertyNotFoundException: Property [maNganh] not found on type [model.Category]
+		at javax.el.BeanELResolver$BeanProperties.get(BeanELResolver.java:257)
+		at javax.el.BeanELResolver$BeanProperties.access$300(BeanELResolver.java:210)
+		at javax.el.BeanELResolver.property(BeanELResolver.java:326)
+		at javax.el.BeanELResolver.getValue(BeanELResolver.java:97)
+		at org.apache.jasper.el.JasperELResolver.getValue(JasperELResolver.java:112)
+		at org.apache.el.parser.AstValue.getValue(AstValue.java:168)
+		at org.apache.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:189)
+		at org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate(PageContextImpl.java:942)
+		at org.apache.jsp.category_002dlist_jsp._jspx_meth_c_005fforEach_005f0(category_002dlist_jsp.java:331)
+		at org.apache.jsp.category_002dlist_jsp._jspService(category_002dlist_jsp.java:236)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:583)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:465)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:583)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:212)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:181)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:662)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:428)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:360)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:297)
+		at controller.CategoryList.processRequest(CategoryList.java:42)
+		at controller.CategoryList.doGet(CategoryList.java:58)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:489)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:583)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:212)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:181)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:682)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:617)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:932)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1695)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+22-Jun-2023 22:01:03.485 SEVERE [http-nio-8080-exec-221] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [CategoryList] in context with path [/PresonnalProject] threw exception [An exception occurred processing [/category-list.jsp] at line [103]
+
+100: 
+101: 
+102:                                         <td>
+103:                                             <a class="btn btn-danger" href="#" onclick="doDelete('${c.maNganh}')" role="button">Delete</a>
+104:                                             
+105:                                             
+106:                                             
+
+
+Stacktrace:] with root cause
+	javax.el.PropertyNotFoundException: Property [maNganh] not found on type [model.Category]
+		at javax.el.BeanELResolver$BeanProperties.get(BeanELResolver.java:257)
+		at javax.el.BeanELResolver$BeanProperties.access$300(BeanELResolver.java:210)
+		at javax.el.BeanELResolver.property(BeanELResolver.java:326)
+		at javax.el.BeanELResolver.getValue(BeanELResolver.java:97)
+		at org.apache.jasper.el.JasperELResolver.getValue(JasperELResolver.java:112)
+		at org.apache.el.parser.AstValue.getValue(AstValue.java:168)
+		at org.apache.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:189)
+		at org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate(PageContextImpl.java:942)
+		at org.apache.jsp.category_002dlist_jsp._jspx_meth_c_005fforEach_005f0(category_002dlist_jsp.java:331)
+		at org.apache.jsp.category_002dlist_jsp._jspService(category_002dlist_jsp.java:236)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:583)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:465)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:583)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:212)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:181)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:662)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:428)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:360)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:297)
+		at controller.CategoryList.processRequest(CategoryList.java:42)
+		at controller.CategoryList.doGet(CategoryList.java:58)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:489)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:583)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:212)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:181)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:682)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:617)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:932)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1695)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+22-Jun-2023 22:52:38.200 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+22-Jun-2023 22:52:38.201 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+22-Jun-2023 23:51:11.910 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+22-Jun-2023 23:51:11.910 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+22-Jun-2023 23:51:11.911 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@50882dda')
